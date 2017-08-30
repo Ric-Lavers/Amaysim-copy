@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amaysim</title>
+    <link rel="shortcut icon" href="/images/favicon.ico?=2">
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= render 'layouts/nav' %>
+
+    <!-- <a href="/help/mobile">Help</a>
+    <%= link_to 'Help', help_mobile_path%>
+    <%= link_to 'Help URL', help_mobile_url%> -->
+
+
+
+
+    <%= yield %>
+
+  </body>
+</html>
